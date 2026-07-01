@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0625/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說摩尼羅亶經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1393.xml
+    old_id: T21n1393
+hash: sha256:abe151e2025f34f675b4f16f8fc1c8559622b08b65070c1822cdc97761ee519f

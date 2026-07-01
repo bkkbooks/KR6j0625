@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0625/v1
+canonical_location: https://kanripo.org/bkk/KR6j0625/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說摩尼羅亶經
+  identifiers:
+    alt_id:
+    - T21n1393
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1393.xml
+    old_id: T21n1393
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0625_000.yaml, hash: 'sha256:abe151e2025f34f675b4f16f8fc1c8559622b08b65070c1822cdc97761ee519f'}
+  - {seq: 1, filename: KR6j0625_001.yaml, hash: 'sha256:4a48070478eeb703b368ebdb8789246285d5725f99886f1a373d3ccb9fb03a6c'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0625_001.markers.yaml, hash: 'sha256:9178b4129ab78c6ee68e990610cecfbf85176fe91215a736e12feec1f7e230d2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0625_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1070
+  label: 佛說摩尼羅亶經
+  type: juan
+  level: 1
+hash: sha256:99203f58c085699aa77005c4bfe3fe80ea0d1fcad31aee0dd9c924b402a363e1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
