@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0625/v1
 canonical_location: https://kanripo.org/bkk/KR6j0625/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說摩尼羅亶經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0625_000.yaml, hash: 'sha256:abe151e2025f34f675b4f16f8fc1c8559622b08b65070c1822cdc97761ee519f'}
-  - {seq: 1, filename: KR6j0625_001.yaml, hash: 'sha256:dd1319df73fe991de890316821bad7610d10707ae6e7ea3633b45ba74ae29c84'}
+  - {seq: 1, filename: KR6j0625_001.yaml, hash: 'sha256:5c87213c781ff86ba11ec50915196a911f6a4397f1450b6a07943298bd77ddd3'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0625_000.markers.yaml, hash: 'sha256:027b41b046de04b5cafb3309657667ba0461637e7841d57f98f52982b8803ef4'}
-  - {seq: 1, role: markers, filename: assets/KR6j0625_001.markers.yaml, hash: 'sha256:76fdde280f93bba96dd14f10d3133de2ed151b93a5224e3972feb17d9188a671'}
+  - {seq: 1, role: markers, filename: assets/KR6j0625_001.markers.yaml, hash: 'sha256:e2a9d9c57043fd75031587c265ee95485d0fa08afeb9a39ebd1badbd6c646344'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說摩尼羅亶經
   type: juan
   level: 1
-hash: sha256:f8df28cf552e98fe76fcedfe5d5d3abc31193b624d1b007816e9349e640f019c
+hash: sha256:b3c9681a583d0964b431664114a5e56f0501ff315f1ef277c3e6b149b6a58734
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
